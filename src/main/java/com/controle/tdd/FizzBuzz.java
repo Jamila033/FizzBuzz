@@ -3,10 +3,9 @@ package com.controle.tdd;
 public class FizzBuzz {
 
     public static String de(int nbre) {
-
-            if (nbre == 1) {
-                return "1";
-            }
-            return "";
+        if (nbre % 3 == 0) {
+            return "Fizz";
+        }
+        return String.valueOf(nbre);
     }
 }
